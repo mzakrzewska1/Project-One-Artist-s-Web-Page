@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+}
+
+/* navBar*/
+
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-end;
+    text-decoration: none;
+    list-style-type: none;
+    padding-top: 5%;
+}
+
+ul>li {
+    padding-right: 5%;
+    font-family: 'Alice', serif;
+}
+
+/* footer */
+
+.footer-icon {
+    display: flex;
+    justify-content: flex-start;
+    height: 50px;
+    width: auto;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}

@@ -1,0 +1,29 @@
+body {
+    background-image: url("img/pexels-paula-schmidt-963486.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+    height: fit-content;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+h1 {
+    font-family: 'Alice', serif;
+    font-size: 1.5rem;
+}
+
+.img-container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+img {
+    height: 500px;
+    width: auto;
+}
