@@ -1,3 +1,7 @@
+:root {
+    --text-font: 'Montserrat', sans-serif;
+}
+
 .main-box {
     display: flex;
     flex-direction: row;
@@ -27,10 +31,11 @@
     align-items: flex-start;
     text-align:center;
     padding-left: 8%;
+    font-family: var(--text-font);
 }
 
 h1.title {
-    font-family: 'Alice', serif;
+    font-family: var(--text-font);
     font-size: 2rem;
     align-self: center;
     text-align: center;
@@ -42,6 +47,7 @@ p.text1 {
     width: 450px;
     text-align:justify;
     line-height: 1.35;
+    font-family: var(--text-font);
 
 }
 
@@ -71,4 +77,10 @@ p.text2 {
     width: 400px;
     text-align: justify;
     line-height: 1.35;
+    font-family: var(--text-font);
+}
+
+a.link, a.link:visited {
+    text-decoration: none;
+    color: rgb(142, 98, 98);
 }
