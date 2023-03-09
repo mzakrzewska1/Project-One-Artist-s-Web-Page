@@ -1,0 +1,65 @@
+.main-box {
+    display: flex;
+    flex-direction: column;
+    /*align-items: flex-start;*/
+    height: fit-content;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+/* Left box and it's children*/
+.left-box {
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+    padding-bottom: 10%;
+}
+
+.left-box>h2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align:center;
+    padding-left: 8%;
+}
+
+h1.title {
+    font-family: 'Alice', serif;
+    font-size: 2rem;
+    align-self: center;
+    padding-bottom: 10%;
+}
+
+p.text1 {
+    width: 450px;
+    text-align:justify;
+    line-height: 1.35;
+
+}
+
+.img1-box {
+    height: 300px;
+    width: auto;
+}
+
+/* Right box and it's children*/
+
+.right-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    width: 100%;
+}
+
+.img2-box {
+    height: 400px;
+    width: auto;
+}
+
+p.text2 {
+    width: 400px;
+    text-align: justify;
+    line-height: 1.35;
+}
