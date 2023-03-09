@@ -94,3 +94,28 @@ a.link:visited {
 footer {
     margin-top: 20%;
 }
+
+@media only screen and (max-width: 1100px)
+{
+    .main-box {
+        flex-direction: column;
+        height: auto;
+        padding-left: 10%;
+        width: 1000px;
+    }
+
+    h1.title, p.text {
+        display: flex;
+        padding-left: 65px;
+    }
+
+    h2 {
+        padding-right: 450px;
+    }
+
+    .right-box {
+        padding-top: 0;
+        flex-direction: column;
+        padding-right: 460px;
+    }
+}
