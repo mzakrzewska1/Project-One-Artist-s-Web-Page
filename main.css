@@ -2,6 +2,16 @@
     box-sizing: border-box;
 }
 
+body {
+    background-image: url("img/pexels-ksenia-chernaya-5691697.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+    height: fit-content;
+}
+header{
+    margin-bottom: 50px;
+}
 /* navBar*/
 
 ul {
@@ -32,4 +42,5 @@ ul>li {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
+    align-items: flex-end;
 }

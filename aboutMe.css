@@ -1,29 +1,40 @@
-body {
-    background-image: url("img/pexels-paula-schmidt-963486.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    max-width: 100%;
-    height: fit-content;
-}
 
 main {
     display: flex;
     flex-direction: column;
-    padding-left: 10%;
-    padding-right: 10%;
+    align-items: flex-start;
+    height: fit-content;
+    padding-left: 20%;
+    padding-right: 20%;
 }
 
 h1 {
     font-family: 'Alice', serif;
     font-size: 1.5rem;
+    align-self: flex-start;
+}
+
+h1>p {
+    align
 }
 
 .img-container {
     display: flex;
-    justify-content: flex-end;
+    flex-direction: row;
+    align-items: flex-end;
+    width: 100%;
+}
+.title{
+    margin:auto -50px auto auto;
+    z-index: 2;
 }
 
 img {
-    height: 500px;
+    height: 400px;
     width: auto;
+    clip-path: circle(50%);
+}
+
+.text-box {
+    align-self: flex-end ;
 }
