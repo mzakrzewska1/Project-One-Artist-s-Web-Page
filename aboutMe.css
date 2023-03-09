@@ -1,3 +1,6 @@
+:root {
+    --text-font: 'Montserrat', sans-serif;
+}
 
 main {
     display: flex;
@@ -27,6 +30,15 @@ h1>p {
 .title{
     margin:auto -50px auto auto;
     z-index: 2;
+}
+
+h2 {
+    font-family: var(--text-font);
+}
+
+.text-p {
+    font-family: var(--text-font);
+    text-align: justify;
 }
 
 img {
