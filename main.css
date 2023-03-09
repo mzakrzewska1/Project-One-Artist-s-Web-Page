@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("img/pexels-ksenia-chernaya-5691697.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+    height: fit-content;
+}
+
+header {
+    margin-bottom: 50px;
+}
+
+/* navBar*/
+
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-end;
+    text-decoration: none;
+    list-style-type: none;
+    padding-top: 5%;
+}
+
+ul>li {
+    padding-right: 5%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* footer */
+
+.footer-icon {
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    width: auto;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+.footer-container>p {
+    font-family: 'Montserrat', sans-serif;
+}
