@@ -104,3 +104,19 @@ display: flex;
 justify-content: center;
 align-items: flex-start;
 }
+
+@media only screen and (max-width: 1000px) {
+    .main-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+        }
+    h1 {
+    text-align: left;
+    padding-left: 10%;
+    }
+    .box-right-contact {
+        padding-left: 0;
+    }
+        }
