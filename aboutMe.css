@@ -50,3 +50,22 @@ img {
 .text-box {
     align-self: flex-end ;
 }
+
+@media only screen and (max-width: 1000px) {
+
+    main {
+        padding-left: 10%;
+        padding-right: 5%;
+    }
+    .img-container {
+        display: block;
+    }
+
+    .text-p {
+        width: auto;
+    }
+
+    img {
+        width:max-content;
+    }
+}

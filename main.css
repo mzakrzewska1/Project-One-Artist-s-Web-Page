@@ -48,3 +48,14 @@ ul>li {
 .footer-container>p {
     font-family: 'Montserrat', sans-serif;
 }
+
+@media only screen and (max-width: 480px) {
+    ul {
+        display: block;
+        flex-direction: column;
+    }
+
+    li {
+        padding-bottom: 2%;
+    }
+}
