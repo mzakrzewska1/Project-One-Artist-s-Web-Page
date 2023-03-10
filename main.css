@@ -29,6 +29,19 @@ ul>li {
     font-family: 'Montserrat', sans-serif;
 }
 
+a {
+    text-decoration: none;
+    list-style: none;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: rgb(255, 255, 255);
+}
+
 /* footer */
 
 .footer-icon {
