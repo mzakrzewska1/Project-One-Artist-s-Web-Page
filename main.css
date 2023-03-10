@@ -9,11 +9,9 @@ body {
     max-width: 100%;
     height: fit-content;
 }
-
-header {
+header{
     margin-bottom: 50px;
 }
-
 /* navBar*/
 
 ul {
