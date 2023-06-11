@@ -1,0 +1,123 @@
+:root {
+    --text-font: 'Montserrat', sans-serif;
+}
+
+.main-box {
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+    height: fit-content;
+    padding-left: 20%;
+    padding-right: 7.5%;
+    width: 100%;
+}
+
+/* Left box and it's children*/
+.left-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 40%;
+    padding-bottom: 10%;
+    padding-right: 30%;
+}
+
+.left-box>h2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align:center;
+    padding-left: 8%;
+    font-family: var(--text-font);
+}
+
+h1.title {
+    font-family: var(--text-font);
+    font-size: 2rem;
+    align-self: center;
+    text-align: center;
+    padding-bottom: 2%;
+    padding-top: 2%;
+}
+
+.left-box>h2 {
+    width: 300px;
+}
+
+p.text1 {
+    width: 450px;
+    text-align:justify;
+    line-height: 1.35;
+    font-family: var(--text-font);
+
+}
+
+.img1-box {
+    height: 300px;
+    width: auto;
+}
+
+/* Right box and it's children*/
+
+.right-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 40%;
+    padding-top: 11%;
+}
+
+.img2-box {
+    height: 400px;
+    width: auto;
+}
+
+p.text2 {
+    width: 400px;
+    text-align: justify;
+    line-height: 1.35;
+    font-family: var(--text-font);
+}
+
+a.link, a.link:visited {
+    text-decoration: none;
+    color: rgb(142, 98, 98);
+}
+
+@media only screen and (max-width: 1100px) {
+    .main-box {
+        flex-direction: column;
+        height: auto;
+        padding-left: 10%;
+        width: 1000px;
+    }
+
+        h1.title,
+        p.text {
+            display: flex;
+            padding-left: 65px;
+        }
+    
+        h2 {
+            padding-right: 0px;
+            margin-right: 200px;
+            flex-direction: row;
+            text-align: left;
+            margin-left: 20px;
+        }
+
+        .left-box {
+            padding-right: 400px;
+        }
+    
+        .right-box {
+            padding-top: 0;
+            flex-direction: column;
+            padding-right: 460px;
+        }
+    }
